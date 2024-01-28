@@ -1,0 +1,93 @@
+#contact{text-align: center;}
+html{
+  background-color: #222831;
+  text-align: justify;
+
+}
+nav {
+  background-color: #D65A31;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    line-height: 200%;
+  }
+h1{
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+}
+  header {
+    background-color: #f2f2f2;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    margin-bottom: 0%;
+    width: 100%;
+  }
+  ul{
+    line-height: 150%;
+  }
+  .project {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+  }
